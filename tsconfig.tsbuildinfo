@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/confetti.tsx","./src/components/floatinghearts.tsx","./src/components/loveletter.tsx","./src/components/nobutton.tsx","./src/components/photogallery.tsx","./src/components/valentineletter.tsx","./src/pages/index.tsx"],"errors":true,"version":"5.9.3"}
