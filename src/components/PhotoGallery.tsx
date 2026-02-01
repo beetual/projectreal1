@@ -1,7 +1,22 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const PHOTOS = [
+type PhotoImage = {
+  id: number;
+  src: string;
+  label: string;
+};
+
+type PhotoEmoji = {
+  id: number;
+  emoji: string;
+  label: string;
+  gradient: string;
+};
+
+type Photo = PhotoImage | PhotoEmoji;
+
+const PHOTOS: Photo[] = [
   { id: 1, src: "/photos/christmas.png", label: "Christmas together" },
   { id: 2, src: "/photos/subway.png", label: "Subway selfie" },
   { id: 3, src: "/photos/mirror.png", label: "Our embrace" },
